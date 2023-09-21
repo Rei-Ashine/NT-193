@@ -7,29 +7,12 @@ Format a PDB file from MolDesk to a PDB file that PDBePISA can interpret.
 
 import os
 import os.path
-import re
 import argparse
 
 
-def delete_lines(line, ng_words):
+def delete_lines(input_moldesk, output_file, words):
     """
     Remove lines containing a specific string from a file.
-    """
-    status = False
-    for i in ng_words:
-        if i in line:
-            status = True
-            break
-    return status
-
-def replace_words(line):
-    wo_CYSS = re.sub("CYSS", "CYS ", line)
-
-
-
-def formatter(input_moldesk, output_file, ng_words):
-    """
-    Format a PDB file from MolDesk to a PDB file that PDBePISA can interpret.
     """
     count_lines = 0
     count_deletion = 0
@@ -37,10 +20,11 @@ def formatter(input_moldesk, output_file, ng_words):
         for line in open(input_moldesk, encoding="utf-8", mode="r"):
 
             count_lines += 1
-            if delete_lines(line, ng_words):
-                count_deletion += 1
+            for i in words:
+                if i in line:
+                    count_deletion += 1
+                    break
             else:
-                line = replace_words(line)
                 file.write(line)
 
     print(f"[INFO] The input PDB file has {count_lines} lines.")
@@ -71,7 +55,6 @@ if __name__ == "__main__":
 
     # Format a PDB file
     NG_words = ["SSBOND"]
-    Replacements = {"CYSS": "CYS "}
-    formatter(path, path_output, NG_words)
+    delete_lines(path, path_output, NG_words)
 
     print("----- END -----")
