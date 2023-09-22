@@ -1,0 +1,42 @@
+# Author: rei-ashine
+# DATE: Sep. 22nd, 2023
+# 7e5o_GlobalMinimized_formattedにおける各鎖の可視化
+
+# - Basic config
+hide everything
+
+# - Extract chain
+#select Site, chain C
+#select Site, chain A
+select Site, chain D
+
+show cartoon, Site
+show surface, Site
+set surface_color, grey70, Site
+set transparency, 0.7, Site
+bg_color white
+set ray_shadow, off
+set depth_cue, 0
+
+# - Color scheme according to pLDDT value
+color 0x0053D6, b < 100
+color 0x65CBF3, b < 90
+color 0xFFDB13, b < 70
+color 0xFF7D45, b < 50
+util.cnc
+
+# - Get view manually
+set_view (\
+     0.099298738,    0.485297889,   -0.868681967,\
+     0.120410293,    0.860728681,    0.494619370,\
+     0.987739086,   -0.153710559,    0.027036125,\
+     0.000000000,    0.000000000, -269.660308838,\
+    -1.389778137,    2.625316620,    0.065616608,\
+   171.925308228,  367.395416260,  -20.000000000 )
+
+show lines
+
+# - Get Animation
+mset 1, 180
+movie.roll(1,180,axis='y')
+viewport 3840, 2160
