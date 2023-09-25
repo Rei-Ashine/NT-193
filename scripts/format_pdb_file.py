@@ -1,6 +1,6 @@
 # Author: rei-ashine
 # DATE: Sep. 20th, 2023
-# UPDATE: Sep. 21st, 2023
+# UPDATE: Sep. 25th, 2023
 
 """
 Format a PDB file from MolDesk to a PDB file that PDBePISA can interpret.
@@ -94,7 +94,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--input", required=True,
                         help="Set the input PDB file path")
-    parser.add_argument("-o", "--output", default="data/Formatted",
+    parser.add_argument("-o", "--output", required=True,
                         help="Set the output directory name")
     args = parser.parse_args()
     print("----- START -----")
@@ -105,10 +105,11 @@ if __name__ == "__main__":
     print(f"[INFO] Input PDB file name : {basename}")
 
     # Confirm the existence of the output file/folder
-    if not os.path.isdir(args.output):
-        os.makedirs(args.output)
+    temp = f"data/Formatted/{args.output}"
+    if not os.path.isdir(temp):
+        os.makedirs(temp)
     filename = os.path.splitext(os.path.basename(path))[0]
-    path_output = f"{args.output}/{filename}_formatted.pdb"
+    path_output = f"{temp}/{filename}_formatted.pdb"
 
     assert not os.path.isfile(path_output), \
         "[Warning] The input PDB file is already formatted."

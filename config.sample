@@ -1,0 +1,4 @@
+# Set the path to the directory containing unformatted PDB files.
+PDB="./data/MolDesk"
+#PDB="./data/MolDesk/mutations/L鎖"
+
