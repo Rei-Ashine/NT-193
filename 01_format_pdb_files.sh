@@ -5,11 +5,12 @@
 # bash 01_format_pdb_files.sh &>> logs/formatting.log
 
 echo
-echo "========== Executing $(basename $0) =========="
-cd $(dirname $0)
+echo "========== Executing $(basename "$0") =========="
+cd "$(dirname "$0")" || exit
 date
 
-source ./config
+#shellcheck disable=SC1091
+source config
 
 echo ----------
 bash --version
@@ -22,9 +23,9 @@ echo
 START=$(date +%s)
 echo ----------
 echo "Formatting PDB files to compatible versions for PDBePISA ..."
-for filename in ${PDB}/*.pdb; do
-		folder=$(basename ${filename%/*})
-		python scripts/format_pdb_file.py -i ${filename} -o ${folder}
+for filename in "${PDB}"/*.pdb; do
+	folder=$(basename "${filename%/*}")
+	python scripts/format_pdb_file.py -i "${filename}" -o "${folder}"
 done
 wait
 echo
@@ -32,12 +33,12 @@ echo
 
 END=$(date +%s)
 echo --------------------
-PT=$(expr ${END} - ${START})
-H=$(expr ${PT} / 3600)
-PT=$(expr ${PT} % 3600)
-M=$(expr ${PT} / 60)
-S=$(expr ${PT} % 60)
-echo "Execution time for $(basename $0) : ${H}:${M}:${S}"
+PT=$((END - START))
+H=$((PT / 3600))
+PT=$((PT % 3600))
+M=$((PT / 60))
+S=$((PT % 60))
+echo "Execution time for $(basename "$0") : ${H}:${M}:${S}"
 wait
 echo ====================
 echo

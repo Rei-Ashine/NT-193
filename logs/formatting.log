@@ -1,0 +1,155 @@
+
+========== Executing 01_format_pdb_files.sh ==========
+2023年 9月25日 月曜日 13時26分08秒 JST
+----------
+GNU bash, バージョン 5.1.16(1)-release (aarch64-apple-darwin21.1.0)
+Copyright (C) 2020 Free Software Foundation, Inc.
+ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+----------
+Python 3.9.16
+
+----------
+Formatting PDB files to compatible versions for PDBePISA ...
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized.pdb
+[INFO] The input PDB file has 9450 lines.
+[INFO] 2 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20,
+ 'CYSSB': 20}
+[INFO] Total number of replaced strings : 1879
+[INFO] 10 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_formatted.pdb
+[INFO] The output PDB file has 9448 lines.
+----- END -----
+
+--------------------
+Execution time for 01_format_pdb_files.sh : 0:0:4
+====================
+
+
+========== Executing 01_format_pdb_files.sh ==========
+2023年 9月25日 月曜日 13時26分41秒 JST
+----------
+GNU bash, バージョン 5.1.16(1)-release (aarch64-apple-darwin21.1.0)
+Copyright (C) 2020 Free Software Foundation, Inc.
+ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+----------
+Python 3.9.16
+
+----------
+Formatting PDB files to compatible versions for PDBePISA ...
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized.pdb
+Traceback (most recent call last):
+  File "/Volumes/ICEMS/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+
+--------------------
+Execution time for 01_format_pdb_files.sh : 0:0:0
+====================
+
+
+========== Executing 01_format_pdb_files.sh ==========
+2023年 9月25日 月曜日 13時50分09秒 JST
+----------
+GNU bash, バージョン 5.1.16(1)-release (aarch64-apple-darwin21.1.0)
+Copyright (C) 2020 Free Software Foundation, Inc.
+ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+----------
+Python 3.9.16
+
+----------
+Formatting PDB files to compatible versions for PDBePISA ...
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized.pdb
+[INFO] The input PDB file has 9450 lines.
+[INFO] 2 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20,
+ 'CYSSB': 20}
+[INFO] Total number of replaced strings : 1879
+[INFO] 10 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_formatted.pdb
+[INFO] The output PDB file has 9448 lines.
+----- END -----
+
+--------------------
+01_format_pdb_files.sh: 行 36: 1695617411: コマンドが見つかりません
+01_format_pdb_files.sh: 行 37: : コマンドが見つかりません
+01_format_pdb_files.sh: 行 38: : コマンドが見つかりません
+01_format_pdb_files.sh: 行 39: : コマンドが見つかりません
+01_format_pdb_files.sh: 行 40: : コマンドが見つかりません
+Execution time for 01_format_pdb_files.sh : ::
+====================
+
+
+========== Executing 01_format_pdb_files.sh ==========
+2023年 9月25日 月曜日 14時00分09秒 JST
+----------
+GNU bash, バージョン 5.1.16(1)-release (aarch64-apple-darwin21.1.0)
+Copyright (C) 2020 Free Software Foundation, Inc.
+ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+----------
+Python 3.9.16
+
+----------
+Formatting PDB files to compatible versions for PDBePISA ...
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized.pdb
+[INFO] The input PDB file has 9450 lines.
+[INFO] 2 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20,
+ 'CYSSB': 20}
+[INFO] Total number of replaced strings : 1879
+[INFO] 10 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_formatted.pdb
+[INFO] The output PDB file has 9448 lines.
+----- END -----
+
+--------------------
+Execution time for 01_format_pdb_files.sh : 0:0:1
+====================
+
