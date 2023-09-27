@@ -153,3 +153,443 @@ Formatting PDB files to compatible versions for PDBePISA ...
 Execution time for 01_format_pdb_files.sh : 0:0:1
 ====================
 
+
+========== Executing 01_format_pdb_files.sh ==========
+2023年 9月26日 火曜日 19時05分55秒 JST
+----------
+GNU bash, バージョン 5.1.16(1)-release (aarch64-apple-darwin21.1.0)
+Copyright (C) 2020 Free Software Foundation, Inc.
+ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+----------
+Python 3.9.16
+
+----------
+Formatting PDB files to compatible versions for PDBePISA ...
+----- START -----
+[INFO] Input PDB file name : *.pdb
+Traceback (most recent call last):
+  File "/Volumes/ICEMS/molspace/NT-193/scripts/format_pdb_file.py", line 119, in <module>
+    formatter(path, path_output, NG_words)
+  File "/Volumes/ICEMS/molspace/NT-193/scripts/format_pdb_file.py", line 70, in formatter
+    for line in open(input_moldesk, encoding="utf-8", mode="r"):
+FileNotFoundError: [Errno 2] No such file or directory: './data/MolDesk/mutations/L鎖/L-PHE_9/*.pdb'
+
+--------------------
+Execution time for 01_format_pdb_files.sh : 0:0:0
+====================
+
+
+========== Executing 01_format_pdb_files.sh ==========
+2023年 9月26日 火曜日 19時50分57秒 JST
+----------
+GNU bash, バージョン 5.1.16(1)-release (aarch64-apple-darwin21.1.0)
+Copyright (C) 2020 Free Software Foundation, Inc.
+ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+----------
+Python 3.9.16
+
+----------
+Formatting PDB files to compatible versions for PDBePISA ...
+----- START -----
+[INFO] Input PDB file name : *.pdb
+Traceback (most recent call last):
+  File "/Volumes/ICEMS/molspace/NT-193/scripts/format_pdb_file.py", line 119, in <module>
+    formatter(path, path_output, NG_words)
+  File "/Volumes/ICEMS/molspace/NT-193/scripts/format_pdb_file.py", line 70, in formatter
+    for line in open(input_moldesk, encoding="utf-8", mode="r"):
+FileNotFoundError: [Errno 2] No such file or directory: './data/MolDesk/mutations/L鎖/L-PHE_9/*.pdb'
+
+--------------------
+Execution time for 01_format_pdb_files.sh : 0:0:0
+====================
+
+
+========== Executing 01_format_pdb_files.sh ==========
+2023年 9月27日 水曜日 10時32分27秒 JST
+----------
+GNU bash, バージョン 5.1.16(1)-release (aarch64-apple-darwin21.1.0)
+Copyright (C) 2020 Free Software Foundation, Inc.
+ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+----------
+Python 3.9.16
+
+----------
+Formatting PDB files to compatible versions for PDBePISA ...
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_ALA.pdb
+[INFO] The input PDB file has 9441 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_ALA_formatted.pdb
+[INFO] The output PDB file has 9440 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_ARG.pdb
+[INFO] The input PDB file has 9455 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 502,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1883
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_ARG_formatted.pdb
+[INFO] The output PDB file has 9454 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_ASN.pdb
+[INFO] The input PDB file has 9445 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_ASN_formatted.pdb
+[INFO] The output PDB file has 9444 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_ASP.pdb
+[INFO] The input PDB file has 9443 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 247,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1871
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_ASP_formatted.pdb
+[INFO] The output PDB file has 9442 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_CYS.pdb
+[INFO] The input PDB file has 9442 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_CYS_formatted.pdb
+[INFO] The output PDB file has 9441 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_GLN.pdb
+[INFO] The input PDB file has 9448 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_GLN_formatted.pdb
+[INFO] The output PDB file has 9447 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_GLU.pdb
+[INFO] The input PDB file has 9446 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 250,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1874
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_GLU_formatted.pdb
+[INFO] The output PDB file has 9445 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_GLY.pdb
+[INFO] The input PDB file has 9438 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_GLY_formatted.pdb
+[INFO] The output PDB file has 9437 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_HIS.pdb
+[INFO] The input PDB file has 9448 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_HIS_formatted.pdb
+[INFO] The output PDB file has 9447 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_ILE.pdb
+[INFO] The input PDB file has 9450 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_ILE_formatted.pdb
+[INFO] The output PDB file has 9449 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_LEU.pdb
+[INFO] The input PDB file has 9450 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_LEU_formatted.pdb
+[INFO] The output PDB file has 9449 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_LYS.pdb
+[INFO] The input PDB file has 9453 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 500,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1881
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_LYS_formatted.pdb
+[INFO] The output PDB file has 9452 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_MET.pdb
+[INFO] The input PDB file has 9448 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_MET_formatted.pdb
+[INFO] The output PDB file has 9447 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_PRO.pdb
+[INFO] The input PDB file has 9445 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_PRO_formatted.pdb
+[INFO] The output PDB file has 9444 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_SER.pdb
+[INFO] The input PDB file has 9442 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_SER_formatted.pdb
+[INFO] The output PDB file has 9441 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_THR.pdb
+[INFO] The input PDB file has 9445 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_THR_formatted.pdb
+[INFO] The output PDB file has 9444 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_TRP.pdb
+[INFO] The input PDB file has 9455 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_TRP_formatted.pdb
+[INFO] The output PDB file has 9454 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_TYR.pdb
+[INFO] The input PDB file has 9452 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_TYR_formatted.pdb
+[INFO] The output PDB file has 9451 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_L-PHE_94_VAL.pdb
+[INFO] The input PDB file has 9447 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_L-PHE_94_VAL_formatted.pdb
+[INFO] The output PDB file has 9446 lines.
+----- END -----
+
+--------------------
+Execution time for 01_format_pdb_files.sh : 0:0:10
+====================
+
