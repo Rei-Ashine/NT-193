@@ -593,3 +593,404 @@ Formatting PDB files to compatible versions for PDBePISA ...
 Execution time for 01_format_pdb_files.sh : 0:0:10
 ====================
 
+
+========== Executing 01_format_pdb_files.sh ==========
+2023年 10月 3日 火曜日 17時53分39秒 JST
+----------
+GNU bash, バージョン 5.1.16(1)-release (aarch64-apple-darwin21.1.0)
+Copyright (C) 2020 Free Software Foundation, Inc.
+ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+----------
+Python 3.9.16
+
+----------
+Formatting PDB files to compatible versions for PDBePISA ...
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ALA.pdb
+[INFO] The input PDB file has 9440 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ALA_formatted.pdb
+[INFO] The output PDB file has 9439 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ARG.pdb
+[INFO] The input PDB file has 9454 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 250,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1883
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ARG_formatted.pdb
+[INFO] The output PDB file has 9453 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ASN.pdb
+[INFO] The input PDB file has 9444 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ASN_formatted.pdb
+[INFO] The output PDB file has 9443 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ASP.pdb
+[INFO] The input PDB file has 9442 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 134,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1871
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ASP_formatted.pdb
+[INFO] The output PDB file has 9441 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_CYS.pdb
+[INFO] The input PDB file has 9441 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_CYS_formatted.pdb
+[INFO] The output PDB file has 9440 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_GLN.pdb
+[INFO] The input PDB file has 9447 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_GLN_formatted.pdb
+[INFO] The output PDB file has 9446 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_GLU.pdb
+[INFO] The input PDB file has 9445 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 137,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1874
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_GLU_formatted.pdb
+[INFO] The output PDB file has 9444 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_GLY.pdb
+[INFO] The input PDB file has 9437 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_GLY_formatted.pdb
+[INFO] The output PDB file has 9436 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_HIS.pdb
+[INFO] The input PDB file has 9447 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_HIS_formatted.pdb
+[INFO] The output PDB file has 9446 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ILE.pdb
+[INFO] The input PDB file has 9449 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ILE_formatted.pdb
+[INFO] The output PDB file has 9448 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_LEU.pdb
+[INFO] The input PDB file has 9449 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_LEU_formatted.pdb
+[INFO] The output PDB file has 9448 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_LYS.pdb
+[INFO] The input PDB file has 9452 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 248,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1881
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_LYS_formatted.pdb
+[INFO] The output PDB file has 9451 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_MET.pdb
+[INFO] The input PDB file has 9447 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_MET_formatted.pdb
+[INFO] The output PDB file has 9446 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_PHE.pdb
+[INFO] The input PDB file has 9450 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_PHE_formatted.pdb
+[INFO] The output PDB file has 9449 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_PRO.pdb
+[INFO] The input PDB file has 9444 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_PRO_formatted.pdb
+[INFO] The output PDB file has 9443 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_SER.pdb
+[INFO] The input PDB file has 9441 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_SER_formatted.pdb
+[INFO] The output PDB file has 9440 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_THR.pdb
+[INFO] The input PDB file has 9444 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_THR_formatted.pdb
+[INFO] The output PDB file has 9443 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_TRP.pdb
+[INFO] The input PDB file has 9454 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_TRP_formatted.pdb
+[INFO] The output PDB file has 9453 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_TYP.pdb
+[INFO] The input PDB file has 9454 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_TYP_formatted.pdb
+[INFO] The output PDB file has 9453 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_VAL.pdb
+[INFO] The input PDB file has 9446 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_VAL_formatted.pdb
+[INFO] The output PDB file has 9445 lines.
+----- END -----
+
+--------------------
+Execution time for 01_format_pdb_files.sh : 0:0:3
+====================
+
