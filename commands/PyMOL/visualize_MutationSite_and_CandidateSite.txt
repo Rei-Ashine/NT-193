@@ -1,0 +1,69 @@
+# Author: rei-ashine
+# DATE: Oct. 4th, 2023
+# 7e5o_GlobalMinimized_H-TYR_104_MET_formatted における残基改変部位の可視化
+# Output file --> 7e5o_GlobalMinimized_H-TYR_104_MET_formatted_SER56.gif
+
+# - Basic config
+hide everything
+bg_color white
+set ray_shadow, off
+set depth_cue, 0
+
+# - Color scheme according to pLDDT value
+color 0x0053D6, b < 100
+color 0x65CBF3, b < 90
+color 0xFFDB13, b < 70
+color 0xFF7D45, b < 50
+util.cnc
+
+# - Extract chains
+#select Site, chain C
+#select Site, chain A
+select Site, (chain A,D)
+
+show cartoon, Site
+show surface, Site
+set surface_color, grey70, Site
+set transparency, 0.7, Site
+
+# - Highlight the Spike protein S1
+set cartoon_color, lime, chain D
+
+# - Label the Mutation sites
+# H: TYR 104 -> MET
+select MutationSite, chain A and resn met and (resi 104)
+
+show surface, MutationSite
+set surface_color, magenta, MutationSite
+show sphere, MutationSite
+set sphere_color, magenta, MutationSite
+
+# - Label the Candidate sites
+#select CandidateSite, chain A and resn tyr and (resi 33)
+#select CandidateSite, chain A and resn asn and (resi 52)
+#select CandidateSite, chain A and resn thr and (resi 57)
+select CandidateSite, chain A and resn ser and (resi 56)
+#select CandidateSite, chain A and resn asn and (resi 58)
+#select CandidateSite, chain A and resn asp and (resi 102)
+
+show surface, CandidateSite
+set surface_color, cyan, CandidateSite
+show sphere, CandidateSite
+set sphere_color, cyan, CandidateSite
+
+# - Get view manually
+set_view (\
+     0.099298738,    0.485297889,   -0.868681967,\
+     0.120410293,    0.860728681,    0.494619370,\
+     0.987739086,   -0.153710559,    0.027036125,\
+     0.000000000,    0.000000000, -269.660308838,\
+    -1.389778137,    2.625316620,    0.065616608,\
+   171.925308228,  367.395416260,  -20.000000000 )
+
+show lines
+hide lines, Site
+
+# - Get Animation
+mset 1, 180
+movie.roll(1,180,axis='y')
+viewport 3840, 2160
