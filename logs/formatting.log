@@ -1395,3 +1395,163 @@ Formatting PDB files to compatible versions for PDBePISA ...
 Execution time for 01_format_pdb_files.sh : 0:0:3
 ====================
 
+
+========== Executing 01_format_pdb_files.sh ==========
+2023年 10月 6日 金曜日 14時08分01秒 JST
+----------
+GNU bash, バージョン 5.1.16(1)-release (aarch64-apple-darwin21.1.0)
+Copyright (C) 2020 Free Software Foundation, Inc.
+ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+----------
+Python 3.9.16
+
+----------
+Formatting PDB files to compatible versions for PDBePISA ...
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ALA.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ARG.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ASN.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ASP.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_CYS.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_GLN.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_GLU.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_GLY.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_HIS.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_ILE.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_LEU.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_LYS.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_MET.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_NLE.pdb
+[INFO] The input PDB file has 9449 lines.
+[INFO] 1 lines that contain the "SSBOND" line are deleted.
+[INFO] Replaced strings and the number of occurrences
+{'+A': 226,
+ '+B': 134,
+ '+C': 478,
+ '+D': 392,
+ '-A': 122,
+ '-B': 54,
+ '-C': 235,
+ '-D': 198,
+ 'CYSSA': 20}
+[INFO] Total number of replaced strings : 1859
+[INFO] 9 different string patterns in the file needed to be replaced.
+[INFO] Output PDB file name : 7e5o_GlobalMinimized_H-TYR_104_NLE_formatted.pdb
+[INFO] The output PDB file has 9448 lines.
+----- END -----
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_PHE.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_PRO.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_SER.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_THR.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_TRP.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_TYP.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+----- START -----
+[INFO] Input PDB file name : 7e5o_GlobalMinimized_H-TYR_104_VAL.pdb
+Traceback (most recent call last):
+  File "/Volumes/SANDISK128/molspace/NT-193/scripts/format_pdb_file.py", line 114, in <module>
+    assert not os.path.isfile(path_output), \
+AssertionError: [Warning] The input PDB file is already formatted.
+
+--------------------
+Execution time for 01_format_pdb_files.sh : 0:0:2
+====================
+
