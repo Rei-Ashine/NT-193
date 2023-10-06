@@ -2,5 +2,6 @@
 #PDB="./data/MolDesk"
 #PDB="./data/MolDesk/mutations/L鎖/L-PHE_94"
 #PDB="./data/MolDesk/mutations/H鎖/H-TYR_104"
-PDB="./data/MolDesk/mutations/H鎖/H-TYR_104_MET_and_H-SER_56"
+#PDB="./data/MolDesk/mutations/H鎖/H-TYR_104_MET_and_H-SER_56"
+PDB="./data/MolDesk/mutations/H鎖/H-Tyr104Met_and_H-Ser56Cys"
 
