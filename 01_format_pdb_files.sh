@@ -2,6 +2,7 @@
 #$ -S /usr/bin/bash
 # Author: rei-ashine
 # DATE: Sep. 25th, 2023
+# UPDATE: Oct. 10th, 2023
 # bash 01_format_pdb_files.sh &>> logs/formatting.log
 
 echo
@@ -11,6 +12,7 @@ date
 
 #shellcheck disable=SC1091
 source config
+conda activate nt-193
 
 echo ----------
 bash --version
