@@ -2,7 +2,7 @@
 #$ -S /usr/bin/bash
 # Author: rei-ashine
 # DATE: Sep. 25th, 2023
-# UPDATE: Oct. 10th, 2023
+# UPDATE: Oct. 11th, 2023
 # bash 01_format_pdb_files.sh &>> logs/formatting.log
 
 echo
@@ -10,8 +10,11 @@ echo "========== Executing $(basename "$0") =========="
 cd "$(dirname "$0")" || exit
 date
 
-#shellcheck disable=SC1091
+# shellcheck disable=SC1091
 source config
+
+# shellcheck source=/dev/null
+source "$(conda info --base)"/etc/profile.d/conda.sh
 conda activate nt-193
 
 echo ----------
