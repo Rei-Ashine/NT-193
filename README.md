@@ -1,10 +1,15 @@
 # NT-193
 Author: rei-ashine<br>
 DATE: Oct. 10th, 2023<br>
+UPDATE: Oct. 13th, 2023<br>
 
 ---
 Scripts for
-01. Formatting a PDB file
+01. Formatting a PDB file<br>
+USAGE: `bash 01_format_pdb_files.sh &>> logs/formatting.log`<br>
+[NOTE]: Before running the shell script,<br>
+you should do `cp config.sample config` and change the path<br>
+to the directory containing the pdb files you want to format.
 
 ## Installing Dependencies
 All dependencies can be installed with conda.<br>
