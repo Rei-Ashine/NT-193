@@ -1,7 +1,7 @@
 # NT-193
 Author: rei-ashine<br>
 DATE: Oct. 10th, 2023<br>
-UPDATE: Oct. 13th, 2023<br>
+UPDATE: Oct. 19th, 2023<br>
 
 ---
 Scripts for
@@ -30,3 +30,6 @@ Delete the virtual environment :
 ```bash
 conda remove -n nt-193 --all
 ```
+
+## Antibody Residue Modification Protocol
+![image](./data/PNG/Antibody_residue_modification_protocol_20231018.png)
