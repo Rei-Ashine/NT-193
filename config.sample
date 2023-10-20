@@ -7,3 +7,5 @@
 #PDB="./data/MolDesk/mutations/L鎖/L-SER_68"
 PDB="./data/MolDesk/mutations/H鎖/H-Tyr104Met_and_H-Ser56Cys_and_H-TYR_33"
 
+# Set the path to the directory containing PISA score CSV files.
+PISA="./data/GoogleSheets"
