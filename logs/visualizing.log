@@ -1,0 +1,51 @@
+
+========== Executing 02_visualize_pisa_scores.sh ==========
+2023年 10月20日 金曜日 11時12分07秒 JST
+----------
+GNU bash, バージョン 5.1.16(1)-release (aarch64-apple-darwin21.1.0)
+Copyright (C) 2020 Free Software Foundation, Inc.
+ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+----------
+Python 3.9.16
+
+----------
+Creating scatter plots from PISA score CSV files ...
+Seaborn 0.12.2
+----- START -----
+[INFO] Input CSV file :  Mutate_7e5o_GlobalMinimized_H-TYR_104.csv
+[INFO] Output scatterplot file :  Mutate_7e5o_GlobalMinimized_H-TYR_104_scatterplot_NHB.png
+[INFO] Output scatterplot file :  Mutate_7e5o_GlobalMinimized_H-TYR_104_scatterplot_NSB.png
+----- END -----
+Seaborn 0.12.2
+----- START -----
+[INFO] Input CSV file :  Mutate_7e5o_GlobalMinimized_H-TYR_104_MET_and_H-SER_56_CYS_and_H-TYR_33.csv
+[INFO] Output scatterplot file :  Mutate_7e5o_GlobalMinimized_H-TYR_104_MET_and_H-SER_56_CYS_and_H-TYR_33_scatterplot_NHB.png
+[INFO] Output scatterplot file :  Mutate_7e5o_GlobalMinimized_H-TYR_104_MET_and_H-SER_56_CYS_and_H-TYR_33_scatterplot_NSB.png
+----- END -----
+Seaborn 0.12.2
+----- START -----
+[INFO] Input CSV file :  Mutate_7e5o_GlobalMinimized_H-TYR_104_MET_and_then_H-SER_56.csv
+[INFO] Output scatterplot file :  Mutate_7e5o_GlobalMinimized_H-TYR_104_MET_and_then_H-SER_56_scatterplot_NHB.png
+[INFO] Output scatterplot file :  Mutate_7e5o_GlobalMinimized_H-TYR_104_MET_and_then_H-SER_56_scatterplot_NSB.png
+----- END -----
+Seaborn 0.12.2
+----- START -----
+[INFO] Input CSV file :  Mutate_7e5o_GlobalMinimized_L-PHE_94.csv
+[INFO] Output scatterplot file :  Mutate_7e5o_GlobalMinimized_L-PHE_94_scatterplot_NHB.png
+[INFO] Output scatterplot file :  Mutate_7e5o_GlobalMinimized_L-PHE_94_scatterplot_NSB.png
+----- END -----
+Seaborn 0.12.2
+----- START -----
+[INFO] Input CSV file :  Mutate_7e5o_GlobalMinimized_L-SER_68.csv
+[INFO] Output scatterplot file :  Mutate_7e5o_GlobalMinimized_L-SER_68_scatterplot_NHB.png
+[INFO] Output scatterplot file :  Mutate_7e5o_GlobalMinimized_L-SER_68_scatterplot_NSB.png
+----- END -----
+
+--------------------
+Execution time for 02_visualize_pisa_scores.sh : 0:0:46
+====================
+
