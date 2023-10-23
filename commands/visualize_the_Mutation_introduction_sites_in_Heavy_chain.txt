@@ -1,0 +1,72 @@
+# Author: rei-ashine
+# DATE: Oct. 23rd, 2023
+# 7e5o_GlobalMinimized_formatted のH鎖における残基改変候補部位の可視化
+# Output file --> 7e5o_GlobalMinimized_formatted_MutationSites_in_Heavy_chain.gif
+
+# - Basic config
+hide everything
+bg_color white
+set ray_shadow, off
+set depth_cue, 0
+
+# - Color scheme according to pLDDT value
+color 0x0053D6, b < 100
+color 0x65CBF3, b < 90
+color 0xFFDB13, b < 70
+color 0xFF7D45, b < 50
+util.cnc
+
+# - Extract chains
+select Site, (chain A,D)
+
+show cartoon, Site
+show surface, Site
+set surface_color, grey70, Site
+set transparency, 0.7, Site
+
+# - Highlight the Spike protein S1
+set cartoon_color, lime, chain D
+
+# - Label the Mutation site 1
+# H: TYR 104 -> MET
+select MutationSite1, chain A and resn tyr and (resi 104)
+
+show surface, MutationSite1
+set surface_color, magenta, MutationSite1
+show sphere, MutationSite1
+set sphere_color, magenta, MutationSite1
+
+# - Label the Mutation site 2
+# H: SER 56 -> CYS
+select MutationSite2, chain A and resn ser and (resi 56)
+
+show surface, MutationSite2
+set surface_color, cyan, MutationSite2
+show sphere, MutationSite2
+set sphere_color, cyan, MutationSite2
+
+# - Label the Mutation site 3
+# H: TYR 33 -> HIS
+select MutationSite3, chain A and resn tyr and (resi 33)
+
+show surface, MutationSite3
+set surface_color, yellow, MutationSite3
+show sphere, MutationSite3
+set sphere_color, yellow, MutationSite3
+
+# - Get view manually
+set_view (\
+     0.099298738,    0.485297889,   -0.868681967,\
+     0.120410293,    0.860728681,    0.494619370,\
+     0.987739086,   -0.153710559,    0.027036125,\
+     0.000000000,    0.000000000, -269.660308838,\
+    -1.389778137,    2.625316620,    0.065616608,\
+   171.925308228,  367.395416260,  -20.000000000 )
+
+show lines
+hide lines, Site
+
+# - Get Animation
+mset 1, 180
+movie.roll(1,180,axis='y')
+viewport 3840, 2160
