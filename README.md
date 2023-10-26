@@ -1,7 +1,7 @@
 # NT-193
 Author: rei-ashine<br>
 DATE: Oct. 10th, 2023<br>
-UPDATE: Oct. 19th, 2023<br>
+UPDATE: Oct. 26th, 2023<br>
 
 ---
 Scripts for
@@ -11,6 +11,7 @@ USAGE: `bash 01_format_pdb_files.sh &>> logs/formatting.log`<br>
 you should do `cp config.sample config` and change the path<br>
 to the directory containing the pdb files you want to format.
 
+---
 ## Installing Dependencies
 All dependencies can be installed with conda.<br>
 An environment screenshot is provided :
@@ -31,5 +32,16 @@ Delete the virtual environment :
 conda remove -n nt-193 --all
 ```
 
+## Setting up Jupyter Notebook
+Add a virtual environment to the kernel of Jupyter Notebook :
+```bash
+ipython kernel install --user --name nt-193
+```
+Confirm that "nt-193" is included in "Available kernels" :
+```bash
+jupyter kernelspec list
+```
+
+---
 ## Antibody Residue Modification Protocol
 ![image](./data/PNG/Antibody_residue_modification_protocol_20231018.png)
