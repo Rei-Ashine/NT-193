@@ -9,7 +9,13 @@ Scripts for
 USAGE: `bash 01_format_pdb_files.sh &>> logs/formatting.log`<br>
 [NOTE]: Before running the shell script,<br>
 you should do `cp config.sample config` and change the path<br>
-to the directory containing the pdb files you want to format.
+to the directory containing the pdb files you want to format in the config file.
+
+02. Creating scatter plots from PISA score CSV files<br>
+USAGE: `bash 02_visualize_pisa_scores.sh &>> logs/visualizing.log`<br>
+[NOTE]: Before running the shell script,<br>
+you should change the path to the directory containing<br>
+the PISA score CSV files you want to visualize in the config file.
 
 ---
 ## Installing Dependencies
