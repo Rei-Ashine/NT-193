@@ -1,7 +1,7 @@
 # NT-193
 Author: rei-ashine<br>
 DATE: Oct. 10th, 2023<br>
-UPDATE: Oct. 27th, 2023<br>
+UPDATE: Oct. 30th, 2023<br>
 
 ---
 Scripts for
@@ -51,6 +51,41 @@ jupyter kernelspec list
 ---
 ## Antibody Residue Modification Protocol
 ![image](./data/PNG/Antibody_residue_modification_protocol_20231018.png)
+
+---
+## Directory Structure
+```
+.
+├── README.md
+├── 01_format_pdb_files.sh
+├── 02_visualize_pisa_scores.sh
+├── Jupyter-Notebooks
+│   └── visualize_PISA_scores.ipynb
+├── commands
+│   └── PyMOL
+├── data
+│   ├── 7E5O
+│   ├── Formatted
+│   ├── MolDesk
+│   ├── PISA
+│   ├── PNG
+│   ├── GoogleSheets
+│   ├── PDBsum
+│   └── PyMOL
+├── logs
+│   ├── DUMP
+│   ├── formatting.log
+│   └── visualizing.log
+├── scripts
+│   ├── DUMP
+│   ├── format_pdb_file.py
+│   ├── format_pisa_data.gs
+│   └── visualize_pisa_scores.py
+├── DUMP
+├── config
+├── config.sample
+└── environment.yml
+```
 
 ---
 ## Statistics
